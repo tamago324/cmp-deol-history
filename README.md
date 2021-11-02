@@ -1,4 +1,4 @@
-# cmp-deol
+# cmp-deol-history
 
 deol.nvim completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 
