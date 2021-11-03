@@ -19,7 +19,7 @@ require'cmp_deol_history.suggestions'.setup({
 
 ### Configuration to enable zsh and deol_history when filetype is deoledit
 
-```
+```lua
 require'cmp_deol_history.suggestions'.setup({
   hl_group = 'Comment',
   filetypes = {
