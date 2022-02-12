@@ -34,8 +34,8 @@ M.setup = function(opts)
     [[
   augroup cmp-deol-history-suggestions
     autocmd!
-    autocmd InsertEnter,CursorMovedI,TextChangedI,TextChangedP, * lua require('cmp_deol_history.suggestions').show()
-    autocmd CompleteDone,InsertLeave * lua require('cmp_deol_history.suggestions').hide()
+    autocmd InsertEnter,TextChangedI,TextChangedP, * lua require('cmp_deol_history.suggestions').show()
+    autocmd InsertLeave * lua require('cmp_deol_history.suggestions').hide()
     autocmd InsertLeave * lua require('cmp_deol_history.suggestions').update_cache()
   augroup END
   ]],
